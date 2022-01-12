@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5718E98A278AF9B700764445 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5718E989278AF9B700764445 /* playsoundsviewcontroller-audio.swift */; };
 		572BC5FA2788816100A46FCF /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BC5F92788816100A46FCF /* PlaySoundsViewController.swift */; };
 		5773C25727636B440010F7CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773C25627636B440010F7CC /* AppDelegate.swift */; };
 		5773C25927636B440010F7CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773C25827636B440010F7CC /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5718E989278AF9B700764445 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "playsoundsviewcontroller-audio.swift"; path = "../../../myDocs/iOSDevWork/classNotes/playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		572BC5F92788816100A46FCF /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		5773C25327636B440010F7CC /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5773C25627636B440010F7CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		5773C25527636B440010F7CC /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				5718E989278AF9B700764445 /* playsoundsviewcontroller-audio.swift */,
 				5773C25627636B440010F7CC /* AppDelegate.swift */,
 				5773C25827636B440010F7CC /* SceneDelegate.swift */,
 				5773C25A27636B440010F7CC /* RecordSoundsViewController.swift */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5773C25B27636B440010F7CC /* RecordSoundsViewController.swift in Sources */,
+				5718E98A278AF9B700764445 /* playsoundsviewcontroller-audio.swift in Sources */,
 				5773C25727636B440010F7CC /* AppDelegate.swift in Sources */,
 				572BC5FA2788816100A46FCF /* PlaySoundsViewController.swift in Sources */,
 				5773C25927636B440010F7CC /* SceneDelegate.swift in Sources */,
@@ -293,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MYK9549KKA;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MYK9549KKA;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
